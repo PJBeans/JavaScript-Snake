@@ -108,7 +108,7 @@ a.snake-link:hover {
 .snake-welcome-dialog {
     padding: 8px;
     margin: 0px;
-    background-color: #000000;
+    background-image: url('./images/window.png');
     color: #ffffff;
     font-family: Verdana, arial, helvetica, sans-serif;
     font-size: 14px;
@@ -126,7 +126,7 @@ a.snake-link:hover {
 .snake-try-again-dialog {
     padding: 8px;
     margin: 0px;
-    background-color: #000000;
+    background-image: url('./images/window.png');
     color: #ffffff;
     font-family: Verdana, arial, helvetica, sans-serif;
     font-size: 14px;
