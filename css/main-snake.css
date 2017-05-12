@@ -48,7 +48,7 @@ a.snake-link:hover {
     margin-top:-40px;
     margin-left:-150px;
     display:none;
-    background-color:black;
+    background-image: url('./images/window.png');
     color:white;
 }
 
