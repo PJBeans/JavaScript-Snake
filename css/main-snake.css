@@ -29,11 +29,11 @@ body {
 #game-area:focus { outline: none; }
 
 a.snake-link, a.snake-link:link, a.snake-link:visited {
-  color: #FCFC54; 
+  color: #0004ff; 
 }
 
 a.snake-link:hover {
-  color: #FfFf54; 
+  color: #3d40ff; 
 }
 
 .snake-pause-screen {
@@ -92,6 +92,7 @@ a.snake-link:hover {
     padding: 0px;
     position: absolute;
     background-image: url('./images/whitehouse.jpeg');
+	background-size: 100%, 100%;
     border: 0px solid #0000A8;
 }
 
