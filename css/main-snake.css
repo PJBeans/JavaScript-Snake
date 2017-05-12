@@ -74,8 +74,8 @@ a.snake-link:hover {
 
 .snake-snakebody-alive {
    background-image: url('./images/NewTrump.png');
-   width=45px;
-   height=45px;
+   width: 45px;
+   height: 45px;
 }
 .snake-snakebody-dead {
    background-image: url('./images/hillary.png');
