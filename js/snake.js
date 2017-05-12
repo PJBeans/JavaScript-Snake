@@ -693,7 +693,7 @@ SNAKE.Board = SNAKE.Board || (function() {
             tmpElm.className = "snake-try-again-dialog";
             
             var tryAgainTxt = document.createElement("div");
-            tryAgainTxt.innerHTML = "PhillyCheeseSnake<p></p>You mysteriously disappeared. Meanwhile, Hillary Clinton took your job as president as Mike Pence also mysteriously disappeared.<p></p>";
+            tryAgainTxt.innerHTML = "PhillyCheeseSnake<p></p>You mysteriously disappeared. Meanwhile, Hillary Clinton took your job as president as Mike Pence also mysteriously disappeared. Not only that, but The House Whisperer Paul Ryan also mysteriously disappeared.<p></p>";
             var tryAgainStart = document.createElement("button");
             tryAgainStart.appendChild( document.createTextNode("Build another wall?"));
             
