@@ -1,5 +1,5 @@
 PhillyCheeseSnake <br/>
-By Patrick Gillespie<br/>
+By PJBeans<br/>
 A fork of JavaScript Snake by Patrojk
 License: MIT<br/>
 http://patorjk.com/games/snake
