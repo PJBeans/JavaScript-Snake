@@ -114,7 +114,7 @@ SNAKE.Snake = SNAKE.Snake || (function() {
         var me = this,
             playingBoard = config.playingBoard,
             myId = instanceNumber++,
-            growthIncr = 5,
+            growthIncr = 4,
             moveQueue = [], // a queue that holds the next moves of the snake
             currentDirection = 1, // 0: up, 1: left, 2: down, 3: right
             columnShift = [0, 1, 0, -1],
@@ -613,7 +613,7 @@ SNAKE.Board = SNAKE.Board || (function() {
             
             elmAboutPanel = document.createElement("div");
             elmAboutPanel.className = "snake-panel-component";
-            elmAboutPanel.innerHTML = "<a href='http://patorjk.com/blog/software/' class='snake-link'>more patorjk.com apps</a> - <a href='https://github.com/patorjk/JavaScript-Snake' class='snake-link'>source code</a>";
+            elmAboutPanel.innerHTML = "<a href='https://www.youtube.com/channel/UCITvshid2yaFeQ8CqtXXLZQ' class='snake-link'>Phil's YouTube</a> - <a href='https://github.com/PJBeans' class='snake-link'>More by PJBeans</a> - <a href='https://github.com/PJBeans/PhillyCheeseSnake' class='snake-link'>Source Code</a>";
             
             elmLengthPanel = document.createElement("div");
             elmLengthPanel.className = "snake-panel-component";
@@ -662,7 +662,7 @@ SNAKE.Board = SNAKE.Board || (function() {
             if (config.fullScreen) {
                 fullScreenText = "On Windows, press F11 to play in Full Screen mode.";   
             }
-            welcomeTxt.innerHTML = "JavaScript Snake<p></p>Use the <strong>arrow keys</strong> on your keyboard to play the game. " + fullScreenText + "<p></p>";
+            welcomeTxt.innerHTML = "PhillyCheeseSnake<p></p>Help President Trump gather Trump-Styled Bricks for his wall. Use the <strong>arrow keys</strong> on your keyboard to play the game. " + fullScreenText + "<p></p>";
             var welcomeStart = document.createElement("button");
             welcomeStart.appendChild(document.createTextNode("Play Game"));
             var loadGame = function() {
@@ -693,9 +693,9 @@ SNAKE.Board = SNAKE.Board || (function() {
             tmpElm.className = "snake-try-again-dialog";
             
             var tryAgainTxt = document.createElement("div");
-            tryAgainTxt.innerHTML = "JavaScript Snake<p></p>You died :(.<p></p>";
+            tryAgainTxt.innerHTML = "PhillyCheeseSnake<p></p>You mysteriously disappeared. Meanwhile, Hillary Clinton took your job as president as Mike Pence also mysteriously disappeared.<p></p>";
             var tryAgainStart = document.createElement("button");
-            tryAgainStart.appendChild( document.createTextNode("Play Again?"));
+            tryAgainStart.appendChild( document.createTextNode("Build another wall?"));
             
             var reloadGame = function() {
                 tmpElm.style.display = "none";
