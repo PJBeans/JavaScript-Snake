@@ -121,15 +121,15 @@ SNAKE.Snake = SNAKE.Snake || (function() {
             rowShift = [-1, 0, 1, 0],
             xPosShift = [],
             yPosShift = [],
-            snakeSpeed = 75,
+            snakeSpeed = 25,
             isDead = false,
             isPaused = false;
         function getMode (mode, speed) {
     document.getElementById(mode).addEventListener('click', function () { snakeSpeed = speed; });
 }
-            getMode('Easy', 100);
-            getMode('Medium', 75);
-            getMode('Difficult', 50);
+            getMode('Easy', 25);
+            getMode('Medium', 25);
+            getMode('Difficult', 25);
         // ----- public variables -----
         me.snakeBody = {};
         me.snakeBody["b0"] = new SnakeBlock(); // create snake head
