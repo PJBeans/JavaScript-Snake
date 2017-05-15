@@ -114,22 +114,23 @@ SNAKE.Snake = SNAKE.Snake || (function() {
         var me = this,
             playingBoard = config.playingBoard,
             myId = instanceNumber++,
-            growthIncr = 20,
+            growthIncr = 100,
             moveQueue = [], // a queue that holds the next moves of the snake
             currentDirection = 1, // 0: up, 1: left, 2: down, 3: right
             columnShift = [0, 1, 0, -1],
             rowShift = [-1, 0, 1, 0],
             xPosShift = [],
             yPosShift = [],
-            snakeSpeed = 25,
+            snakeSpeed = 50,
             isDead = false,
             isPaused = false;
         function getMode (mode, speed) {
     document.getElementById(mode).addEventListener('click', function () { snakeSpeed = speed; });
 }
-            getMode('Easy', 25);
-            getMode('Medium', 25);
-            getMode('Difficult', 25);
+            getMode('Easy', 100);
+            getMode('Medium', 75);
+            getMode('Difficult', 50);
+	    getMode('A wee bit quick', 25);
         // ----- public variables -----
         me.snakeBody = {};
         me.snakeBody["b0"] = new SnakeBlock(); // create snake head
