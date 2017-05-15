@@ -130,7 +130,6 @@ SNAKE.Snake = SNAKE.Snake || (function() {
             getMode('Easy', 100);
             getMode('Medium', 75);
             getMode('Difficult', 50);
-	    getMode('A wee bit quick', 25);
         // ----- public variables -----
         me.snakeBody = {};
         me.snakeBody["b0"] = new SnakeBlock(); // create snake head
